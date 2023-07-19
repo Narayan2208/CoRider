@@ -1,0 +1,63 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --default-body-bold: "Open Sans";
+  --body-regular: Poppins;
+  --font-mulish: Mulish;
+
+  /* font sizes */
+  --font-size-8xl: 27px;
+  --font-size-3xl: 22px;
+  --font-size-base: 16px;
+  --body-regular-size: 17px;
+  --font-size-sm: 14px;
+  --font-size-lg: 18px;
+
+  /* Colors */
+  --color-whitesmoke-100: #faf9f4;
+  --system-colours-default-colors-systemwhiteblack-dark: #000;
+  --color-dimgray-100: #606060;
+  --color-dimgray-200: #50555c;
+  --color-gray-100: #fcfcfe;
+  --color-gray-200: #141e0d;
+  --system-colours-default-colors-systemgrey-2-light: #aeaeb2;
+  --color-white: #fff;
+  --color-silver: #b7b7b7;
+
+  /* Gaps */
+  --gap-base: 16px;
+  --gap-5xs: 8px;
+  --gap-xs: 12px;
+
+  /* Paddings */
+  --padding-5xs: 8px;
+  --padding-base: 16px;
+  --padding-xs: 12px;
+
+  /* border radiuses */
+  --br-81xl: 100px;
+  --br-8xs-6: 4.6px;
+  --br-12xs: 1px;
+  --br-980xl: 999px;
+  --br-xs: 12px;
+}
